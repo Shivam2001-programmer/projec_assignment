@@ -1,0 +1,39 @@
+.contain {
+  display: flex;
+
+
+}
+
+.course {
+  position: absolute;
+  top: 10%;
+  /* center horizantly */
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+
+.box1 {
+  height: 650px;
+  width: 250px;
+  background-color: rgb(219, 240, 252);
+  margin-left: 10%;
+}
+
+.box1 .texts {
+  margin-left: 20px;
+}
+
+
+.box2 {
+  height: 450px;
+  width: 800px;
+  background-color: rgb(255, 229, 209);
+  margin-left: 5%;
+}
+
+
+.box2 .te {
+  margin-left: 20px;
+}

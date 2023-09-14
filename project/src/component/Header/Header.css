@@ -1,0 +1,68 @@
+/* App.css */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  border-radius: 180%;
+  margin-top: 23px;
+  margin-left: 33px;
+  margin-right: 33px;
+}
+
+.left-image,
+.right-image {
+  max-width: 400px; /* Set the desired width for your images */
+  height: auto;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+
+.contener{
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  margin-top: 6%;
+  margin-left: 6%;
+  margin-right: 4%;
+  
+}
+
+.text{
+  margin-left: 7%;
+}
+.text1{
+  margin-left: 6%;
+}
+.text2{
+  margin-left: 6%;
+}
+
+.conteners{
+  display: flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin-top: 6%;
+  margin-left: 6%;
+  margin-right: 4%;
+}
+
+.tex{
+  margin-left: 7%;
+  color: purple;
+}
+.tex1{
+  margin-left: 6%;
+  color: purple;
+}
+.tex2{
+  margin-left: 6%;
+  color: purple;
+}

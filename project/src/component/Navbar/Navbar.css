@@ -1,0 +1,42 @@
+
+
+.navbar {
+    display: flex;
+   
+    align-items: center;
+    padding: 20px;
+    margin-left: 13%;
+    color: black;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+ 
+  }
+  
+  .navbar-logo img {
+ 
+    height: 69px; /* Adjust the logo width */
+  }
+  
+  .navbar-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links li a:hover {
+    color: #f1420c; 
+    cursor: pointer;
+  }
+  
+  .navbar-links .collag:hover{
+    color: #ff5722;
+  }
